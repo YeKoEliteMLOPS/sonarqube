@@ -9,7 +9,7 @@ once the condition are met the next step is to configure vm.max_map_count to do 
 
 For MS Windows users, using wsl subsystem Open powershell, run
 ```
-$wsl -d docker-desktop
+wsl -d docker-desktop
 ```
 then 
 ```
@@ -35,4 +35,4 @@ then run docker compose command
 docker compose up -d
 ```
 
-To open it, go to localhost:9000 and the username and password are both admin
+To open it, go to `localhost:9000` and the username and password are both **admin**
