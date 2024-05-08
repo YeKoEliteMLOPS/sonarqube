@@ -15,6 +15,10 @@ then
 ```
 sysctl -w vm.max_map_count=262144
 ```
+when finised exit by typing
+```
+exit
+```
 For linux users
 ```
 sysctl -w vm.max_map_count=262144
