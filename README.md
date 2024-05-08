@@ -32,7 +32,10 @@ then
 ```
 cd sonarqube
 ```
-
+create the external network infrastructure_ default
+```
+docker network create infrastructure_default
+```
 then run docker compose command
 
 ```
